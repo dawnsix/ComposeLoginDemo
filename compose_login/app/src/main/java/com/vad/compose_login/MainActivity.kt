@@ -82,7 +82,7 @@ fun LoginView(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .fillMaxWidth()
                 .testTag("user")
-                .semantics { contentDescription = "accessId" },
+                .semantics { contentDescription = "accessIdx" },
             value = usernameSate.value,
             onValueChange = {
                 usernameSate.value = it
